@@ -1,4 +1,4 @@
-![Photo](./cv_photo.jpg)
+![Photo](./images/cv_photo.jpg)
 # **VIKTORIIA AVILOVA**
 
 # Junior Frontend Developer
