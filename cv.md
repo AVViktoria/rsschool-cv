@@ -1,16 +1,18 @@
 ![Photo](./cv_photo.jpg)
 # **VIKTORIIA AVILOVA**
+
 **Junior Frontend Developer** 
 
-### PROFESSIONAL PROFILE
-Attention to detail and good organizational skills, ability to work on multiple tasks and switch between them quickly, excellent time management skills and experience delivering projects in a deadline-driven environment.
-
+----------------
 ### CONTACTS
 **Phone:** +1(503)997-8580\
 **Email:** kvikist@ukr.net\
 **Location:** Portland, Oregon\
 [GitHub](https://github.com/AVViktoria?tab=repositories)\
 [Linkedin](https://www.linkedin.com/in/viktoriiaavilova/)
+
+### PROFESSIONAL PROFILE
+Attention to detail and good organizational skills, ability to work on multiple tasks and switch between them quickly, excellent time management skills and experience delivering projects in a deadline-driven environment.
 
 ----------------
 
@@ -85,3 +87,15 @@ Three ways to solve the same problem in JavaScript:
   console.log(makePairs2(data)); // [['a', 1], ['b', 2]]
   console.log(makePairs3(data)); // [['a', 1], ['b', 2]]
 ```
+
+
+<!-- Рекомендации EPAM HR department
+
+Имя и фамилия
+Контакты для связи
+Краткая информация о себе (ваша цель и приоритеты, подчеркните свои сильные стороны, расскажите о своём опыте работы, если опыта работы нет, расскажите о своём стремлении учиться и узнавать новое)
+Навыки (языки программирования, фреймворки, методологии, системы контроля версий и инструменты разработки, которыми вы владеете)
+Примеры кода
+Опыт работы. Junior Dev может перечислить учебные проекты с указанием использованных навыков и ссылками на исходный код.
+Образование (включая пройденные курсы и тренинги)
+Английский язык (уровень английского языка, если была языковая практика, расскажите о ней) -->
