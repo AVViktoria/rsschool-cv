@@ -1,9 +1,8 @@
 ![Photo](./cv_photo.jpg)
 # **VIKTORIIA AVILOVA**
 
-# **Junior Frontend Developer** 
+# Junior Frontend Developer
 
-----------------
 ### CONTACTS
 **Phone:** +1(503)997-8580\
 **Email:** kvikist@ukr.net\
