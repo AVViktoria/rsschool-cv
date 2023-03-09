@@ -7,7 +7,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: 'DM Sans', sans-serif;
   font-style: normal;
   color: #2f3131;
 }
@@ -23,3 +23,8 @@ a {
 img {
   display: block;
 }
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto Slab', serif; */
