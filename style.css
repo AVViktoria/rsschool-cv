@@ -12,9 +12,9 @@ body {
   color: #2f3131;
 }
 
-ul {
+/* ul {
   list-style: none;
-}
+} */
 a {
   display: inline-block;
   text-decoration: none;
@@ -28,3 +28,147 @@ img {
 font-family: 'Playfair Display', serif;
 font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'Roboto Slab', serif; */
+
+
+
+.container {
+  display: flex;
+	max-width: 1200px;
+	margin: 20px auto;
+	box-shadow: 5px 9px 20px rgba(48, 63, 124, 0.15);
+}
+.aside {
+  padding: 51px;
+  /* margin: 0; */
+	width: 282px;
+  color: white;
+	background-color: #3f4c5f;
+}
+.photo {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.thumb {
+  margin-bottom: 20px;
+}
+.thumb-title {
+  margin-bottom: 10px;
+}
+.contacts-list {
+ 
+}
+.contacts-item {
+  display: flex;
+  flex-direction: row;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 7px;
+}
+.icon {
+  margin-right: 8px;
+  fill: white;
+}
+.contacts-phone {
+}
+.link {
+  color: white;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-family: 'Playfair Display', serif;
+}
+.item-github{
+  text-decoration: underline;
+}
+.item-linkedin{
+  text-decoration: underline;
+}
+.contacts-email {
+}
+.contacts-github {
+  
+}
+.linkedin {
+}
+.contacts-address {
+}
+.tech-skills {
+}
+.skills-list {
+  
+}
+.item {
+  margin-left: 15px;
+  margin-bottom: 7px;
+  font-weight: 400;
+    font-size: 14px;
+    line-height: 1.2;
+    letter-spacing: 0.03em;
+    font-family: 'Playfair Display', serif;
+}
+.soft-skills {
+}
+.language {
+}
+.main {
+  
+}
+.main-title {
+}
+.main-name {
+}
+.main-profession {
+}
+.description {
+}
+.description-title {
+}
+.description-text {
+}
+.work {
+}
+.work-title {
+}
+.work-name {
+}
+.work-period {
+}
+.work-list {
+  list-style: none;
+}
+.work-item {
+}
+.project {
+}
+.project-title {
+}
+.project-list {
+  list-style: none;
+}
+.project-item {
+}
+.project-link {
+}
+.project-web {
+}
+.project-github {
+}
+.project-link-text {
+}
+.project-describe {
+}
+.education {
+}
+.education-title {
+}
+.education-thumb {
+}
+.education-name {
+}
+.education-period {
+}
+.education-describe {
+}
