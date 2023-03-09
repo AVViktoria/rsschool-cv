@@ -1,0 +1,201 @@
+/* Normalize */
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-style: normal;
+  color: #2f3131;
+}
+
+/* ul {
+  list-style: none;
+} */
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: block;
+}
+
+/* font-family: 'DM Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans Narrow', sans-serif;
+font-family: 'Roboto Slab', serif; */
+
+.container {
+  display: flex;
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: 5px 9px 20px rgba(48, 63, 124, 0.15);
+}
+.aside {
+  padding: 45px;
+  /* margin: 0; */
+  width: 282px;
+  color: white;
+  background-color: #3f4c5f;
+}
+.photo {
+  margin-right: 0;
+  margin-bottom: 30px;
+}
+
+.thumb {
+  margin-bottom: 20px;
+}
+.thumb-title {
+  margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.9;
+  border-bottom: 3px solid #dfdfdf;
+}
+
+.contacts-item {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 7px;
+}
+.icon {
+  margin-right: 8px;
+  fill: white;
+}
+
+.link {
+  color: white;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+}
+.item-github {
+  text-decoration: underline;
+}
+.item-linkedin {
+  text-decoration: underline;
+}
+
+.item {
+  margin-left: 15px;
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+}
+
+.main {
+  margin-left: 45px;
+  margin-right: 50px;
+  color: rgb(47, 47, 47);
+}
+
+.main-name {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 0.8;
+  letter-spacing: 0.09em;
+  font-family: 'Roboto Slab', serif;
+}
+.main-profession {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.9;
+  letter-spacing: 0.09em;
+  font-family: 'Roboto Slab', serif;
+}
+.prof-title {
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 3px solid #686868;
+  /* color: #2c4a52; */
+}
+
+.title-text {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
+}
+
+.prof-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
+}
+
+.work-list {
+  list-style: none;
+}
+.work-item {
+  margin-bottom: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
+}
+
+.project-list {
+  list-style: none;
+}
+.project-item {
+  margin-bottom: 16px;
+}
+.project-link {
+  display: flex;
+}
+.project-web {
+  text-decoration: underline;
+  margin-right: 6px;
+}
+.project-github {
+  margin-bottom: 5px;
+  margin-right: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
+  text-decoration: underline;
+}
+.project-link-text {
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
+}
+
+.education-thumb {
+  margin-bottom: 16px;
+}
