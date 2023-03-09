@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- Custom styles -->
     <link rel="stylesheet" href="./style.css" />
-    <title>Document</title>
+    <title>CV</title>
   </head>
 
   <body>
@@ -19,36 +19,60 @@
           width=""
           height=""
         />
+
+
         <address class="contacts">
           <h3 class="title">CONTACTS</h3>
           <ul class="contacts-list">
             <li class="contatcs-item">
-              <svg class="icon phone">
-                <use href=""></use>
+              <svg class="icon contatcs-phone" width=""
+              height="">
+                <use href="/icons/sprite.svg#icon-phone"></use>
               </svg>
               <a class="link" href="tel:+15039978580">+15039978580</a>
             </li>
             <li class="contatcs-item">
-              <svg class="icon email">
-                <use href=""></use>
+              <svg class="icon contatcs-email" width=""
+              height="">
+                <use href="/icons/sprite.svg#icon-email"></use>
               </svg>
               <a class="link" href="mailto:vahostel@gmail.com">vahostel@gmail.com</a>
             </li>
+
             <li class="contatcs-item">
-              <svg class="icon github">
-                <use href=""></use>
+              <svg class="icon contatcs-github" width=""
+              height="">
+                <use href="/icons/sprite.svg#icon-github"></use>
               </svg>
-              <a class="link" href="https://github.com/AVViktoria?tab=repositories">GitHub</a>
+              <a
+                class="link"
+                href="https://github.com/AVViktoria?tab=repositories"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="icon github"
+                >GitHub</a
+              >
             </li>
+
             <li class="contatcs-item">
-              <svg class="icon linkedin">
-                <use href=""></use>
+              <svg class="icon linkedin" width=""
+              height="">
+                <use href="/icons/sprite.svg#icon-linkedin"></use>
               </svg>
-              <a class="link" href="https://www.linkedin.com/in/viktoriiaavilova">Linkedin</a>
+              <a
+                class="link"
+                href="https://www.linkedin.com/in/viktoriiaavilova"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label="icon linkedin"
+                >Linkedin</a
+              >
             </li>
-            <li class="contatcs-item">
-              <svg class="icon address">
-                <use href=""></use>
+
+            <li class="contatcs-item" >
+              <svg class="icon contatcs-address" width=""
+              height="">
+                <use href="/icons/sprite.svg#icon-home"></use>
               </svg>
               <a
                 class="link"
@@ -60,6 +84,9 @@
             </li>
           </ul>
         </address>
+
+
+
         <div class="tech-skills">
           <h3 class="title">TECH SKILLS</h3>
           <ul class="skills-list">
@@ -117,19 +144,20 @@
       </aside>
 
       <main class="main">
-        <div class="main-title">
-          <h1 class="main-title_name">VIKTORIIA AVILOVA</h1>
-          <h2 class="main-title_profession">Junior Frontend Developer</h2>
-        </div>
-        <div class="description">
+        <section class="main-title" id="title">
+          <h1 class="main-name">VIKTORIIA AVILOVA</h1>
+          <h2 class="main-profession">Junior Frontend Developer</h2>
+        </section>
+        <section class="description" id="about">
           <h2 class="description-title">PROFESSIONAL PROFILE</h2>
           <p class="description-text">
             Attention to detail and good organizational skills, ability to work on multiple tasks
             and switch between them quickly, excellent time management skills and experience
             delivering projects in a deadline-driven environment.
           </p>
-        </div>
-        <div class="work">
+        </section>
+
+        <section class="work" id="work">
           <h2 class="work-title">WORK EXPERIENCE</h2>
           <p class="work-name">Self Employment / Hostel Manager</p>
           <p class="work-period">May 2011 - June 2014, Kiev, Ukraine</p>
@@ -141,20 +169,18 @@
             <li class="work-item">Search and training of employees.</li>
             <li class="work-item">Improvement and scaling, hostel support in work.</li>
           </ul>
-        </div>
+        </section>
 
-        <div class="project">
+        <section class="project" id="project">
           <h2 class="project-title">PROJECT EXPERIENCE</h2>
           <ul class="project-list">
             <li class="project-item">
               <div class="project-link">
-                <a
-                  class="link project-link_web"
-                  href="http://avviktoria.github.io/goit-markup-hw-08/"
+                <a class="link project-web" href="http://avviktoria.github.io/goit-markup-hw-08/"
                   >WebStudio</a
                 >
                 <a
-                  class="link project-link_github"
+                  class="link project-github"
                   href="https://github.com/AVViktoria/goit-markup-hw-08"
                   >Link</a
                 >
@@ -167,10 +193,18 @@
 
             <li class="project-item">
               <div class="project-link">
-                <a href="https://avviktoria.github.io/IceCream/" class="link project-link_web"
+                <a
+                  href="https://avviktoria.github.io/IceCream/"
+                  class="link project-web"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >IceCream</a
                 >
-                <a href="https://github.com/AVViktoria/IceCream" class="link project-link_github"
+                <a
+                  href="https://github.com/AVViktoria/IceCream"
+                  class="link project-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >Link</a
                 >
                 <p class="project-link-text">[HTML, CSS, SASS, JS, Parcel]</p>
@@ -185,12 +219,16 @@
               <div class="project-link">
                 <a
                   href="https://avviktoria.github.io/Filmoteka-Project/"
-                  class="link project-link_web"
+                  class="link project-web"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >Filmoteka</a
                 >
                 <a
                   href="https://github.com/AVViktoria/Filmoteka-Project"
-                  class="link project-link_github"
+                  class="link project-github"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   >Link</a
                 >
                 <p class="project-link-text">
@@ -203,14 +241,19 @@
               </p>
             </li>
           </ul>
-        </div>
-        (https://goit.global/us/)
+        </section>
 
-        <div class="education">
+        <section class="education" id="education">
           <h2 class="education-title">EDUCATION</h2>
           <div class="education-thumb">
-            <h3 class="education-name">GoIT - start your career in IT</h3>
-            <h3 class="education-period">April 2022 – March 2023</h3>
+            <a
+              href="https://goit.global/us/"
+              class="link education-name"
+              target="_blank"
+              rel="noopener noreferrer"
+              >GoIT - start your career in IT</a
+            >
+            <p class="education-period">April 2022 – March 2023</p>
             <p class="education-describe">
               Full-stack Web Developer/ HTML5, CSS3, JavaScript, React, NodeJs
             </p>
@@ -222,7 +265,7 @@
             <h3 class="education-period">September 2003 – February 2009, Kiev, Ukraine</h3>
             <p class="education-describe">Master’s degree Chemical Technology/Technician</p>
           </div>
-        </div>
+        </section>
       </main>
     </container>
   </body>
