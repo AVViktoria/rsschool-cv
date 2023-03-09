@@ -29,20 +29,18 @@ font-family: 'Playfair Display', serif;
 font-family: 'PT Sans Narrow', sans-serif;
 font-family: 'Roboto Slab', serif; */
 
-
-
 .container {
   display: flex;
-	max-width: 1200px;
-	margin: 20px auto;
-	box-shadow: 5px 9px 20px rgba(48, 63, 124, 0.15);
+  max-width: 1200px;
+  margin: 20px auto;
+  box-shadow: 5px 9px 20px rgba(48, 63, 124, 0.15);
 }
 .aside {
-  padding: 51px;
+  padding: 45px;
   /* margin: 0; */
-	width: 282px;
+  width: 282px;
   color: white;
-	background-color: #3f4c5f;
+  background-color: #3f4c5f;
 }
 .photo {
   margin-right: 0;
@@ -54,121 +52,150 @@ font-family: 'Roboto Slab', serif; */
 }
 .thumb-title {
   margin-bottom: 10px;
+  font-size: 16px;
+  line-height: 1.9;
+  border-bottom: 3px solid #dfdfdf;
 }
-.contacts-list {
- 
-}
+
 .contacts-item {
   display: flex;
   flex-direction: row;
-    align-content: center;
-    justify-content: flex-start;
-    align-items: center;
-    margin-bottom: 7px;
+  align-content: center;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 7px;
 }
 .icon {
   margin-right: 8px;
   fill: white;
 }
-.contacts-phone {
-}
+
 .link {
   color: white;
   font-weight: 400;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
 }
-.item-github{
+.item-github {
   text-decoration: underline;
 }
-.item-linkedin{
+.item-linkedin {
   text-decoration: underline;
 }
-.contacts-email {
-}
-.contacts-github {
-  
-}
-.linkedin {
-}
-.contacts-address {
-}
-.tech-skills {
-}
-.skills-list {
-  
-}
+
 .item {
   margin-left: 15px;
   margin-bottom: 7px;
   font-weight: 400;
-    font-size: 14px;
-    line-height: 1.2;
-    letter-spacing: 0.03em;
-    font-family: 'Playfair Display', serif;
+  font-size: 14px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
 }
-.soft-skills {
-}
-.language {
-}
+
 .main {
-  
+  margin-left: 45px;
+  margin-right: 50px;
+  color: rgb(47, 47, 47);
 }
-.main-title {
-}
+
 .main-name {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 38px;
+  line-height: 0.8;
+  letter-spacing: 0.09em;
+  font-family: 'Roboto Slab', serif;
 }
 .main-profession {
+  margin-bottom: 25px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 0.9;
+  letter-spacing: 0.09em;
+  font-family: 'Roboto Slab', serif;
 }
-.description {
+.prof-title {
+  margin-bottom: 7px;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 1.9;
+  letter-spacing: 0.06em;
+  font-family: 'PT Sans Narrow', sans-serif;
+  text-transform: uppercase;
+  border-bottom: 3px solid #686868;
+  /* color: #2c4a52; */
 }
-.description-title {
+
+.title-text {
+  margin-bottom: 6px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
 }
-.description-text {
+
+.prof-text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
 }
-.work {
-}
-.work-title {
-}
-.work-name {
-}
-.work-period {
-}
+
 .work-list {
   list-style: none;
 }
 .work-item {
+  margin-bottom: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
 }
-.project {
-}
-.project-title {
-}
+
 .project-list {
   list-style: none;
 }
 .project-item {
+  margin-bottom: 16px;
 }
 .project-link {
+  display: flex;
 }
 .project-web {
+  text-decoration: underline;
+  margin-right: 6px;
 }
 .project-github {
+  margin-bottom: 5px;
+  margin-right: 6px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.36;
+  letter-spacing: 0.03em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
+  text-decoration: underline;
 }
 .project-link-text {
+  margin-bottom: 7px;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 1.4;
+  letter-spacing: 0.05em;
+  font-family: 'Playfair Display', serif;
+  color: rgb(47, 47, 47);
 }
-.project-describe {
-}
-.education {
-}
-.education-title {
-}
+
 .education-thumb {
-}
-.education-name {
-}
-.education-period {
-}
-.education-describe {
+  margin-bottom: 16px;
 }
