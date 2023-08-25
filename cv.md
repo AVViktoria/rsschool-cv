@@ -23,13 +23,13 @@ deadline-driven environment.
 ### TECH SKILLS
 
 - HTML5/CSS3/SASS/BEM
-- Responsive/Adaptive
-- JavaScript
-- React JS, Redux, React Native
+- Responsive/Adaptive design
+- JavaScript/REST API
+- React/Reduxjs/Toolkit/React Native
 - Node.js
-- VSCode, Figma (for web development)
-
-### SOFT SKILLS
+- Parcel/Webpack
+- MongoDB/Mockapi
+- VSCode/Github/npm/Figma(for web development)
 
 - Team Work
 - Self-motivated
